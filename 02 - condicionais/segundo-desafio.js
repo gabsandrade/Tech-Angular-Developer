@@ -1,6 +1,6 @@
 const numero = 19;
-const numeroPar = (numero % 5) === 0;
-console.log(numeroPar);
+const numeroDivisielPor5 = (numero % 5) === 0;
+;
 
 
 if(numero === 0){
@@ -11,12 +11,6 @@ if(numero === 0){
     console.log('não');
 }
 
-
-if (numeroPar) {
-    console.log('Executei');
-} else {(!numeroPar) 
-    console.log('Impar')
-} 
 
 
 
