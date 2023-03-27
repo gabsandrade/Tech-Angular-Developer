@@ -19,3 +19,8 @@ if (formaPagamento === 1) {
 } else {
     console.log(aplicarJuros(precoOriginal, 10));
 }
+
+function incrementarJuros(valor, percentualDeJuros) {
+    const incremento = (percentualDeJuros / 100) * valor;
+    return valor + incremento;
+}
